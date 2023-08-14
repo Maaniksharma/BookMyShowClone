@@ -1,5 +1,6 @@
 {
-  "name": "new-react-project",
+  "name": "Book My Show Clone",
+  "homepage": "https://Maaniksharma.github.io/BookMyShowClone/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +10,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy" : "npm run build",
-"deploy" : "gh-pages -d build"
+     "deploy" : "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
