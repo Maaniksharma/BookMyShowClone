@@ -3,26 +3,23 @@ import HeroCarousel from "./components/HeroCarousel";
 import { MOVIE, ENTERTAINMENT, PREMIERE, EVENTS } from "./MOVIE";
 import MovieCarousel from "./components/MovieCarousel";
 import { useState, useEffect } from "react";
+import { useQuery } from "@tanstack/react-query";
+
 import axios from "axios";
 
 export default function MainPage() {
-  const [Premiere, setPremiere] = useState([]);
-  const [Upcoming, setUpcoming] = useState([]);
-  useEffect(() => {
-    const requestPremiere = async () => {
-      const response = await axios.get("/movie/popular");
-      setPremiere(response.data.results);
-    };
-    requestPremiere();
-    const requestUpcoming = async () => {
-      const response = await axios.get("/movie/upcoming");
-      setUpcoming(response.data.results);
-      console.log(response);
-    };
-    requestUpcoming();
-  }, []);
-  console.log(Premiere);
-  console.log(Upcoming);
+  const { data: Premiere } = useQuery(["premiere"], async () => {
+    const response = await axios.get("/movie/popular");
+    return response.data.results;
+  });
+
+  const { data: Upcoming } = useQuery(["upcoming"], async () => {
+    const response = await axios.get("/movie/upcoming");
+    return response.data.results;
+  });
+  if (!Premiere || !Upcoming) {
+    return <div>Loading....</div>;
+  }
   return (
     <>
       <HeroCarousel Image={HEROIMAGE} />
@@ -34,7 +31,7 @@ export default function MainPage() {
           api={false}
         />
       </div>
-      <div className="py-8 rounded  lg:px-14">
+      <div className="py-8 rounded  lg:px-14 px-4">
         <img
           src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/stream-leadin-web-collection-202210241242.png"
           alt=""
@@ -47,8 +44,17 @@ export default function MainPage() {
         api={false}
         single={true}
       />
-      <div className="bg-slate-700 mt-7  lg:px-14 pt-3 px-4 pb-2">
-        <img className="" src="./premiere.png" alt="" />
+      <div className="bg-slate-700  lg:px-14 pt-3 px-4 md:pb-2">
+        <img
+          className="max-w-full h-full object-cover w-3/5 md:hidden"
+          src="./preimere1.png"
+          alt=""
+        />
+        <img
+          className="max-w-full h-full object-cover md:block hidden"
+          src="./premiere.png"
+          alt=""
+        />
       </div>
       <MovieCarousel
         Title="Premieres"

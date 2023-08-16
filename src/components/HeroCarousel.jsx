@@ -2,20 +2,8 @@ import { PrevArrow, NextArrow } from "../Arrows";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useEffect, useState } from "react";
-import axios from "axios";
 
 export default function HeroCarousel(props) {
-  // const [HeroMovies, setHeroMovies] = useState([]);
-  // useEffect(() => {
-  //   const requestHeroMovies = async () => {
-  //     const response = await axios.get("/now_playing");
-  //     console.log(response);
-  //     console.log(HeroMovies);
-  //     setHeroMovies(response.data.results);
-  //   };
-  //   requestHeroMovies();
-  // }, []);
   const { Image } = props;
   var settings = {
     dots: true,
@@ -25,16 +13,16 @@ export default function HeroCarousel(props) {
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true,
-    // responsive: [
-    //   {
-    //     breakpoint: 782,
-    //     settings: {
-    //       centerMode: false,
-    //     },
-    //   },
-    // ],
-    // nextArrow: <NextArrow />,
-    // prevArrow: <PrevArrow />,
+    responsive: [
+      {
+        breakpoint: 782,
+        settings: {
+          centerMode: false,
+        },
+      },
+    ],
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
   };
   return (
     <>
@@ -42,7 +30,7 @@ export default function HeroCarousel(props) {
         <Slider {...settings}>
           {Image.map((image) => {
             return (
-              <div className="px-1 py-2 h-96">
+              <div className="px-1 py-0.5 md:py-2 ">
                 <img
                   src={image}
                   className="w-full h-full rounded"

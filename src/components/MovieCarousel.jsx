@@ -32,17 +32,17 @@ export default function MovieCarousel(props) {
       {
         breakpoint: 500,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
     ],
   };
 
   return (
-    <div className={` lg:px-10 pt-6 pb-8 ${font[2]}`}>
+    <div className={` lg:px-10 pt-3 md:pt-6  md:pb-5 lg:pb-8 ${font[2]}`}>
       <div className="flex justify-between">
-        <div className="">
+        <div>
           <div
             className={`text-base md:text-2xl   px-4 font-bold items-center ${font[0]}`}
           >

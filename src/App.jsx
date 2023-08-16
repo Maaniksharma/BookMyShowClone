@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import NavBar from "./components/Navbar";
 import MainPage from "./MainPage";
 import MoviePage from "./components/MoviePage";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 import axios from "axios";
 
 axios.defaults.params = {};

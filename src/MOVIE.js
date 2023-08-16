@@ -124,32 +124,33 @@ export const EVENTS = [
   },
   {
     image:
-      "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxNCBNYXk%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358848-nfxqubpzzh-portrait.jpg",
-    original_title: "Brushstrokes and Giggles",
-    desc: "Third Wave Coffee: Chandigarh",
+      "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAyNSBBdWcgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00364659-dgrsbqrfrh-portrait.jpg",
+    original_title: "Kisi Ko Batana Maat",
+    desc: "Jyoti Nivas College",
   },
   {
     image:
-      "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxNCBNYXk%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358848-nfxqubpzzh-portrait.jpg",
-    original_title: "Brushstrokes and Giggles",
-    desc: "Third Wave Coffee: Chandigarh",
+      "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAyNCBOb3Y%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00365092-qugtqdasys-portrait.jpg",
+    original_title: "MindFool India Tour",
+    desc: "Koramangala indoor stadium",
   },
   {
     image:
-      "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxNCBNYXk%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358848-nfxqubpzzh-portrait.jpg",
-    original_title: "Brushstrokes and Giggles",
-    desc: "Third Wave Coffee: Chandigarh",
+      "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCA4IFNlcA%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00364881-jprmcjdare-portrait.jpg",
+
+    original_title: "Vipul Goyal Live",
+    desc: "Dr Br Ambedkar Bhavan",
   },
   {
     image:
-      "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxNCBNYXk%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358848-nfxqubpzzh-portrait.jpg",
-    original_title: "Brushstrokes and Giggles",
-    desc: "Third Wave Coffee: Chandigarh",
+      "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAyNSBBdWc%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00364295-hsthyunyyh-portrait.jpg",
+    original_title: "Samay Raina Live",
+    desc: "Phoenix Market City",
   },
   {
     image:
-      "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxNCBNYXk%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358848-nfxqubpzzh-portrait.jpg",
-    original_title: "Brushstrokes and Giggles",
-    desc: "Third Wave Coffee: Chandigarh",
+      "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAyNiBBdWcgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00358468-entcxhtgyd-portrait.jpg ",
+    original_title: "Gaurav Gupta Live",
+    desc: "Phoenix Market City",
   },
 ];

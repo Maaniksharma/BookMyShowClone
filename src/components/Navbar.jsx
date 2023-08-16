@@ -1,7 +1,6 @@
 import { BiChevronRight, BiSearch, BiMenu } from "react-icons/bi";
 import { AiFillCaretDown } from "react-icons/ai";
 import { Link } from "react-router-dom";
-
 import Categories from "./Categories";
 const NavSm = () => {
   return (
