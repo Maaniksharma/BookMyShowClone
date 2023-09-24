@@ -55,7 +55,7 @@ const NavLg = () => {
           style={{ width: "115px", height: "50px" }}
         >
           <Link to="/">
-            <img className="w-full h-full" src="../logo.svg" alt="logo" />
+            <img className="w-full h-full" src="/logo.svg" alt="logo" />
           </Link>
         </div>
         <div

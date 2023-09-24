@@ -2,7 +2,6 @@ import { HEROIMAGE } from "./HEROIMAGE";
 import HeroCarousel from "./components/HeroCarousel";
 import { MOVIE, ENTERTAINMENT, PREMIERE, EVENTS } from "./MOVIE";
 import MovieCarousel from "./components/MovieCarousel";
-import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 
 import axios from "axios";
@@ -47,12 +46,12 @@ export default function MainPage() {
       <div className="bg-slate-700  lg:px-14 pt-3 px-4 md:pb-2">
         <img
           className="max-w-full h-full object-cover w-3/5 md:hidden"
-          src="./preimere1.png"
+          src="/preimere1.png"
           alt=""
         />
         <img
           className="max-w-full h-full object-cover md:block hidden"
-          src="./premiere.png"
+          src="/premiere.png"
           alt=""
         />
       </div>
