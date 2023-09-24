@@ -1,5 +1,5 @@
 {
-  "name": "Book My Show Clone",
+  "name": "book-my-show-clone",
   "homepage": "https://Maaniksharma.github.io/BookMyShowClone/",
   "version": "1.0.0",
   "description": "",
@@ -9,8 +9,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy" : "npm run build",
+     "start":"serve -s src/dist"
   },
   "keywords": [],
   "author": "",
@@ -36,7 +36,6 @@
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.10.0",
     "react-slick": "^0.29.0",
-    "serve": "^14.2.1",
     "slick-carousel": "^1.8.1"
   }
 }
